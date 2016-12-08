@@ -1,0 +1,150 @@
+header, nav, section, article, aside, footer {
+   display: block;
+}
+
+html {
+  padding: 30px 0 100px 0;
+  margin: 0;
+  border-top: 70px solid #003580;
+  background-color: #fff;
+  color: #333;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  position: relative;
+  background: #e5e5e5;
+}
+
+body {
+  padding: 0;
+  margin: 0 auto;
+  width: 960px;
+}
+
+section {
+  margin: 0 0 20px 0;
+  clear: both;
+}
+
+h1 {
+  font-size: 32px;
+  color: #0896ff;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: normal;
+  color: purple;
+}
+
+/*Added CSS for Review section */
+
+.review-section {
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 2px 2px 0px #888888;
+    box-shadow: 0px 2px 2px 0px #888888;
+    padding: 15px;
+    margin: 15px 0 20px 0;
+    background-color: #fff;
+}
+
+.filter-panel{
+    margin: 0;
+    background: none;
+    padding-bottom: 0;
+    border: 0px;
+    box-shadow: 0 0 0;
+}
+
+.clear{
+  clear: both;
+}
+
+.per-page, .rating, .search, .pagination{
+  float: left;
+  margin-right: 1em;
+  margin-top: 3px;
+}
+ 
+.per-page select, .rating select{
+  overflow: hidden;
+   background: #fff url("http://www.scottgood.com/jsg/blog.nsf/images/arrowdown.gif") no-repeat 90% 50%;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+          background-image: none;
+}
+.per-page select, .rating select, .search input{
+  padding: 11px 20px;
+  border: none;
+  box-shadow: none;
+  border: 1px solid #ccc;
+  width: 170px;
+  border-radius: 3px;
+  background-color: #fff;
+  
+  
+}
+.star-images{
+  margin-right: 1em;
+}
+
+.user-name{
+  margin-right: 1em;
+  font-size: 18px;
+  position: relative;
+  top: -2px;
+}
+
+.created{
+  float: right;
+  margin-top: 2em;
+}
+
+.pagination ul{
+    display: inline-block;
+    padding-left: 0;
+    border-radius: 4px;
+    margin:2px 0;
+}
+.pagination ul>li {
+    display: inline;
+}
+.pagination ul>li>a{
+    position: relative;
+    float: left;
+    padding: 8px 12px;
+    margin-left: 10px;
+    line-height: 1.42857143;
+    color: purple;
+    text-decoration: none;
+}
+.pagination ul>.active>a, .pagination ul>.active>a:focus, .pagination ul>.active>a:hover{
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color:purple;
+    border-color:purple;
+}
+
+.pagination ul>.next>a, .pagination ul>.next>a:focus, .pagination ul>.next>a:hover{
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color:#a09f9f;
+    border-color:#a09f9f;
+}
+
+.pagination ul>.last>a, .pagination ul>.last>a:focus, .pagination ul>.last>a:hover{
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color:#c3c2c2;
+    border-color:#c3c2c2;
+    margin-left: 10px;
+}
+
+
+
+
+
